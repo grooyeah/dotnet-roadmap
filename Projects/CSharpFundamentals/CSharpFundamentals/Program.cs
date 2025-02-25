@@ -1,4 +1,5 @@
-﻿using CSharpFundamentals.Basics;
+﻿using CSharpFundamentals.Advanced;
+using CSharpFundamentals.Basics;
 using CSharpFundamentals.OOP.Encapsulation;
 using CSharpFundamentals.OOP.Inheritance;
 using CSharpFundamentals.OOP.InterfacesAndPolymorphism;
@@ -57,3 +58,17 @@ foreach (var animal in animals)
 {
     animal.Speak();
 }
+
+// Advanced
+
+Console.WriteLine("===== Advanced Showcase =====");
+
+LINQExamples.LINQExamplesDemo();
+
+Console.WriteLine();
+
+await AsyncAwait.AsyncAwaitDemo();
+
+Console.WriteLine();
+
+DependencyInjection.DepndencyInjectionDemo();
